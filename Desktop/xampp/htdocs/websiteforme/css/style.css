@@ -1,0 +1,105 @@
+.round{
+    border-radius: 30px;
+}
+.modal{
+    outline: none;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+html,body{
+    user-select: none;
+    overflow-x: hidden;
+    background-image: url('https://img.freepik.com/free-photo/realistic-dark-paper-cut-background-abstract-paper-poster-textured-with-wavy-layers-topography-relief-imitation_277819-26.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: overlay;
+}
+.form-text{
+    color: white;
+}
+.modal-content{
+    outline: none;
+     background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+}
+.logo:hover{
+  opacity: 70%;
+}
+.logo{
+  user-select: none;
+  opacity: 100%;
+
+}
+.mylink{
+  color: black;
+  cursor: pointer;
+}
+.mylink:hover{
+  color: red;
+}
+.mylinko{
+  color: white;
+  cursor: pointer;
+}
+.mylinko:hover{
+  color: burlywood;
+}
+a{
+  text-decoration: none;
+}
+video {
+  max-width: 100%;
+}
+.card {
+  border-radius: 30px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.yes{
+  cursor: pointer;
+}
+.no{
+  cursor: default;
+}
+.MYSVG{
+  cursor: pointer;
+}
+.MYSVG:hover{
+fill: pink;
+}
+label{
+  cursor: pointer;
+}
+
+svg{
+  outline: none;
+  border: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
